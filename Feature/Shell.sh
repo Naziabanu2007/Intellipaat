@@ -1,4 +1,5 @@
-if [ $? -eq 0 ]
-then
-echo "GIT Brabching"
-fi
+for i in $(Seq 0 5)
+do 
+echo "GIT Branching"
+done
+
